@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="edu.farmingdale.maze_csc311_assignment3.HelloController">
+
+    <ImageView fx:id="mazeView" fitHeight="400" fitWidth="600">
+        <image>
+            <Image url="@maze.png" />
+        </image>
+    </ImageView>
+
+    <ImageView fx:id="robotView" fitHeight="40" fitWidth="40" layoutY="230.0">
+        <image>
+            <Image url="@robot.png" />
+        </image>
+    </ImageView>
+
+</Pane>
