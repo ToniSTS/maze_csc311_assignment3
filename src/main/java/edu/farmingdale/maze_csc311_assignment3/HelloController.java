@@ -8,7 +8,6 @@ public class HelloController {
     @FXML
     private ImageView robotView;
 
-
     public ImageView getRobotView() {
         return robotView;
     }
