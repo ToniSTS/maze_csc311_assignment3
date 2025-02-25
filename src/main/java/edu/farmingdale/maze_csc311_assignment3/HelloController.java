@@ -16,6 +16,9 @@ public class HelloController {
     private ImageView robotView;
 
     @FXML
+    private ImageView maze2View;
+
+    @FXML
     public void initialize() {
         tabPane.setFocusTraversable(false);
     }
@@ -26,5 +29,9 @@ public class HelloController {
 
     public ImageView getRobotView() {
         return robotView;
+    }
+
+    public ImageView getMaze2View() {
+        return maze2View;
     }
 }

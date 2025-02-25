@@ -14,33 +14,25 @@
          prefWidth="800"
          prefHeight="600">
 
-
     <Tab text="Maze 1">
         <AnchorPane fx:id="maze1Pane">
-
-
             <ImageView fx:id="maze1View"
-                       fitWidth="600"
-                       fitHeight="400"
-                       layoutX="20"
-                       layoutY="20">
+                       layoutX="0"
+                       layoutY="0">
                 <image>
                     <Image url="@maze.png" />
                 </image>
             </ImageView>
-
-
             <ImageView fx:id="robotView"
                        fitWidth="24"
                        fitHeight="24"
                        preserveRatio="true"
-                       layoutX="50"
+                       layoutX="30"
                        layoutY="230">
                 <image>
                     <Image url="@robot.png" />
                 </image>
             </ImageView>
-
             <Button fx:id="startMaze1Button"
                     text="Start Auto Move"
                     layoutX="650"
@@ -55,15 +47,12 @@
     <Tab text="Maze 2">
         <AnchorPane fx:id="maze2Pane">
             <ImageView fx:id="maze2View"
-                       fitWidth="600"
-                       fitHeight="400"
-                       layoutX="20"
-                       layoutY="20">
+                       layoutX="0"
+                       layoutY="0">
                 <image>
                     <Image url="@maze2.png" />
                 </image>
             </ImageView>
-
             <Button fx:id="startMaze2Button"
                     text="Start Auto Move"
                     layoutX="650"
